@@ -1,6 +1,5 @@
-import React from "react";
 import ReactDom from "react-dom";
+import { App } from "./App";
+import "font-awesome/css/font-awesome.min.css";
 
-const el = <h1>Hello</h1>;
-
-ReactDom.render(el, document.getElementById("root"));
+ReactDom.render(<App />, document.getElementById("root"));
