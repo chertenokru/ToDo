@@ -1,7 +1,8 @@
 export type Item = {
   label: string;
-  important?: boolean;
+  important: boolean;
   id: number;
+  done: boolean;
 };
 
 export type ItemList = Item[];
